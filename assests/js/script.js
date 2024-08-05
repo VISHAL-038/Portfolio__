@@ -69,6 +69,7 @@ for (let i = 0; i < selectItems.length; i++) {
 
     let selectedValue = this.innerText.toLowerCase();
     // selectValue.innerText = this.innerText;
+    // selectValue.innerText = selectedValue;
     elementToggleFunc(select);
     filterFunc(selectedValue);
 
