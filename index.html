@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assests/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assests/photos/avtar.jpg" alt="Om Kharche" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Om Kharche">Vishal</h1>
+
+          <p class="title">Developer || Data Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:vishaal03.it@gmail.com" class="contact-link">vishaal03.it@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 9816290993</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">3 August, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Chandigarh, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/VISHAL-038" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/vishal-3a6bb2246/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/_vishal06" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/_vishal.06/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+            <p>
+                Dedicated and motivated B.Tech student specializing in Computer Science and Engineering at Rayat Bahara University in Punjab, currently advancing into the 3rd year with a projected graduation in 2025. With a passion for data science and a drive for excellence, I bring a dynamic skill set and a proven track record in data analysis, machine learning, and software development.
+              </p>
+              
+              <p>
+                My aim is to contribute effectively to innovative projects and collaborate with interdisciplinary teams. I enjoy turning complex problems into simple, beautiful, and intuitive solutions. My job is to build and design systems that are functional, user-friendly, and visually appealing. I add a personal touch to every project, ensuring it is eye-catching and easy to use. I am committed to bringing across your message and identity in the most creative way. I have developed projects for various domains, showcasing my versatility and dedication.
+              </p>
+              
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+            <h3 class="h3 service-title">What I'm Doing</h3>
+          
+            <ul class="service-list">
+          
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assests/photos/ds.png" alt="Data Science icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Science</h4>
+                  <p class="service-item-text">
+                    Utilizing statistical analysis and machine learning techniques to extract insights and make data-driven decisions.
+                  </p>
+                </div>
+              </li>
+          
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assests/photos/deep-learning (1).png" alt="Machine Learning icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Machine Learning</h4>
+                  <p class="service-item-text">
+                    Developing predictive models and data-driven solutions using advanced machine learning techniques.
+                  </p>
+                </div>
+              </li>
+          
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assests/photos/statistics.png" alt="Data Analysis icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Analysis</h4>
+                  <p class="service-item-text">
+                    Conducting thorough data analysis to extract meaningful insights and support decision-making processes.
+                  </p>
+                </div>
+              </li>
+          
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assests/photos/programming_2091386.png" alt="Web Development icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Development</h4>
+                  <p class="service-item-text">
+                    Creating responsive and dynamic websites using modern web technologies and frameworks.
+                  </p>
+                </div>
+              </li>
+          
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assests/photos/software_14144320.png" alt="Full Stack Development icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Full Stack Development</h4>
+                  <p class="service-item-text">
+                    Building comprehensive web applications with both front-end and back-end development skills.
+                  </p>
+                </div>
+              </li>
+          
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assests/photos/release_11676529.png" alt="Backend Development icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Backend Development</h4>
+                  <p class="service-item-text">
+                    Designing and managing robust and scalable backend systems for various applications.
+                  </p>
+                </div>
+              </li>
+          
+            </ul>
+          
+          </section>
+          
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="services">
+
+            <h3 class="h3 services-title">What I Do</h3>
+            <br>
+          
+            <ul class="services-list">
+          
+              <li class="services-item">
+                <div class="services-icon-box">
+                  <img src="./assests/photos/graphic-design_4213056.png" alt="Design icon" width="40">
+                </div>
+          
+                <div class="services-content-box">
+                  <h4 class="h4 services-item-title">Web Design</h4>
+          
+                  <p class="services-item-text">
+                    Creating modern and high-quality designs that are both functional and visually appealing.
+                  </p>
+                </div>
+              </li>
+              <br>
+          
+              <li class="services-item">
+                <div class="services-icon-box">
+                  <img src="./assests/photos/camera_4910742.png" alt="Photography icon" width="40">
+                </div>
+          
+                <div class="services-content-box">
+                  <h4 class="h4 services-item-title">Photography</h4>
+          
+                  <p class="services-item-text">
+                    Capturing high-quality images with a keen eye for detail and creativity to enhance visual storytelling.
+                  </p>
+                </div>
+              </li>
+              <br>
+          
+              <li class="services-item">
+                <div class="services-icon-box">
+                  <img src="./assests/photos/device_1754361.png" alt="Drawing icon" width="40">
+                </div>
+          
+                <div class="services-content-box">
+                  <h4 class="h4 services-item-title">Drawing</h4>
+          
+                  <p class="services-item-text">
+                    Producing detailed and expressive drawings that bring ideas and concepts to life with artistic flair.
+                  </p>
+                </div>
+              </li>
+          
+            </ul>
+          
+          </section>        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+      
+        <section class="timeline">
+      
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+      
+            <h3 class="h3">Education</h3>
+          </div>
+      
+          <ol class="timeline-list">
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Rayat Bahra University, Mohali</h4>
+              <span>2021 — 2025</span>
+              <p class="timeline-text">
+                B.Tech in Computer Science and Engineering. Achieved a CGPA of 8.15. Focused on software development, full-stack projects, and problem-solving.
+              </p>
+            </li>
+      
+          </ol>
+      
+        </section>
+      
+        <section class="timeline">
+      
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+      
+            <h3 class="h3">Experience</h3>
+          </div>
+      
+          <ol class="timeline-list">
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">CodSoft</h4>
+              <span>Summer 2024</span>
+              <p class="timeline-text">
+                Data Science Intern. Completed tasks including Titanic Survival Prediction, Movie Rating Prediction, and Iris Flower Classification. Gained hands-on experience in data analysis, preprocessing, visualization, and machine learning.
+              </p>
+            </li>
+      
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Personal Projects</h4>
+              <span>2023 — Present</span>
+              <p class="timeline-text">
+                Developed various projects such as:
+                <ul class="timeline-list">
+                    <li class="timeline-text">- Winning Space Race with Data Science: Analyzed SpaceX launch data to predict the success of Falcon 9 landings.</li>
+                    <li class="timeline-text">
+                       - Empower Your Fitness: A full-stack project for a gym website.
+                    </li>
+                    <li class="timeline-text">
+                        - Student Management System: A back-end project with Java.
+                    </li>
+                    <li class="timeline-text">
+                        - Amazon Clone and Foodie: Web apps showcasing e-commerce and restaurant functionalities.
+                    </li>
+                    <li class="timeline-text">
+                         - CodeQuest: A game concept to teach basic Python programming skills.
+                    </li>
+                </ul> 
+              </p>
+            </li>
+      
+          </ol>
+      
+        </section>
+      
+        <section class="skill">
+      
+          <h3 class="h3 skills-title">My Skills</h3>
+      
+          <ul class="skills-list content-card">
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Languages (Python & Java)</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analysis & Visualization</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+      
+          </ul>
+      
+        </section>
+      
+        <section class="certifications">
+      
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="medal-outline"></ion-icon>
+            </div>
+      
+            <h3 class="h3">Certifications</h3>
+          </div>
+      
+          <ul class="certifications-list">
+      
+            <li class="certifications-item">
+              <h4 class="h4 certification-title">IBM Data Science Professional Certificate</h4>
+              <span class="certificate">IBM</span>
+            </li>
+      
+            <li class="certifications-item">
+              <h4 class="h4 certification-title">Machine Learning and Deep Learning – Fundamentals and Applications</h4>
+              <span class="certificate">NPTEL</span>
+            </li>
+      
+            <li class="certifications-item">
+              <h4 class="h4 certification-title">Full Stack Development Program</h4>
+              <span class="certificate">Excellence Education</span>
+            </li>
+      
+            <li class="certifications-item">
+              <h4 class="h4 certification-title">Full Stack Web Development</h4>
+              <span class="certificate">MCP Technology</span>
+            </li>
+      
+            <li class="certifications-item">
+              <h4 class="h4 certification-title">Build an IoT Blockchain Network for Supply Chain</h4>
+              <span class="certificate">IBM</span>
+            </li>
+      
+          </ul>
+      
+        </section>
+      
+      </article>
+      
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+      
+        <section class="projects">
+      
+          <ul class="filter-list">
+      
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+      
+            <li class="filter-item">
+              <button data-filter-btn>Data Science</button>
+            </li>
+      
+            <li class="filter-item">
+              <button data-filter-btn>Python</button>
+            </li>
+      
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+      
+          </ul>
+      
+          <div class="filter-select-box">
+      
+            <button class="filter-select" data-select>
+      
+              <div class="select-value" data-select-value>Select category</div>
+      
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+      
+            </button>
+      
+            <ul class="select-list">
+      
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+      
+              <li class="select-item">
+                <button data-select-item>Data Science</button>
+              </li>
+      
+              <li class="select-item">
+                <button data-select-item>Python</button>
+              </li>
+      
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+      
+            </ul>
+      
+          </div>
+      
+          <ul class="project-list">
+      
+            <!-- Data Science Projects -->
+            <li class="project-item active" data-filter-item data-category="data science">
+              <a href="https://github.com/VISHAL-038/Car_Price_Prediction">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assests/photos/DS-project1.png" alt="Car Price Prediction" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">Car Price Prediction</h3>
+      
+                <p class="project-category">Data Science</p>
+      
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="data science">
+              <a href="https://github.com/VISHAL-038/dataScience_Capstone_Project">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assests/photos/DS-project3.png" alt="SpaceX Rocket Launch Prediction" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">SpaceX Rocket Launch Prediction</h3>
+      
+                <p class="project-category">Data Science</p>
+      
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="data science">
+              <a href="https://github.com/VISHAL-038/Calfornia_RealEstate_Price_Prediction">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assests/photos/DS_project2.png" alt="Real Estate Price Prediction" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">Real Estate Price Prediction</h3>
+      
+                <p class="project-category">Data Science</p>
+      
+              </a>
+            </li>
+      
+            <!-- Python Projects -->
+            <li class="project-item active" data-filter-item data-category="python">
+              <a href="https://github.com/VISHAL-038/Student_MansgementSystem">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assests/photos/Python-project1.png" alt="Student Management System" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">Student Management System</h3>
+      
+                <p class="project-category">Python</p>
+      
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="python">
+              <a href="https://github.com/VISHAL-038/Airline_Management_system">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assests/photos/Python_project2.png" alt="Airline Management System" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">Airline Management System</h3>
+      
+                <p class="project-category">Python</p>
+      
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="python">
+              <a href="https://github.com/VISHAL-038/Product_Management_system">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assests/photos/Python-project3.png" alt="Product Management System" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">Product Management System</h3>
+      
+                <p class="project-category">Python</p>
+      
+              </a>
+            </li>
+      
+            <!-- Web Development Projects -->
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://github.com/VISHAL-038/hbwebsite">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assests/photos/webdevelopment-project1.png" alt="Hotel Booking Website" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">Hotel Booking Website</h3>
+      
+                <p class="project-category">Web Development</p>
+      
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://amazonia12.netlify.app/">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assests/photos/webdevelopment-project2.png" alt="Amazon Clone" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">Amazon Clone</h3>
+      
+                <p class="project-category">Web Development</p>
+      
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://vishal-038.github.io/Chickpeas/">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assests/photos/webdevelopment-project3.png" alt="Chickpeas Restaurant Website" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">Chickpeas Restaurant Website</h3>
+      
+                <p class="project-category">Web Development</p>
+      
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://vishal-038.github.io/EmpowerUFitness/">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assests/photos/webdevelopment-project4.png" alt="EmpowerU Fitness" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">EmpowerU Fitness</h3>
+      
+                <p class="project-category">Web Development</p>
+      
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://vishal-038.github.io/gym/">
+      
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+      
+                  <img src="./assests/photos/webdevelopment-project5.png" alt="Gym Website" loading="lazy">
+                </figure>
+      
+                <h3 class="project-title">Gym Website</h3>
+      
+                <p class="project-category">Web Development</p>
+      
+              </a>
+            </li>
+      
+          </ul>
+      
+        </section>
+      
+      </article>
+      
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109744.197454309!2d76.77071360000001!3d30.732280449999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed0be66ec96b%3A0xa5ff67f9527319fe!2sChandigarh!5e0!3m2!1sen!2sin!4v1722874111830!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assests/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
