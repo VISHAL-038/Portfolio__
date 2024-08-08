@@ -1625,6 +1625,60 @@
     /* portfolio and blog grid */
   
     .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
+
+    .photo-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px; /* Space between cards */
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    
+    .photo-gallery-item {
+      flex: 1 1 calc(50% - 20px); /* Two cards per row, accounting for gap */
+      box-sizing: border-box;
+    }
+    
+    @media (max-width: 768px) {
+      .photo-gallery-item {
+        flex: 1 1 100%; /* Full width for small screens */
+      }
+    }
+    
+    .photo-card {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background-color: #fff;
+    }
+    
+    .photo-banner-box img {
+      width: 100%;
+      height: 200px; /* Ensures all images are the same height */
+      object-fit: cover;
+    }
+    
+    .photo-content {
+      padding: 15px;
+    }
+    
+    .photo-item-title {
+      font-size: 1.25rem;
+      margin: 10px 0;
+      color: gray;
+    }
+    
+    .photo-text {
+      font-size: 1rem;
+      color: #555;
+    }
+    
+    
   
   
   
