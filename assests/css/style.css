@@ -1645,6 +1645,14 @@
         flex: 1 1 100%; /* Full width for small screens */
       }
     }
+
+    @media (max-width: 425px) {
+      
+      .photo-banner-box img {
+        width: 10%;
+        height: 10px;
+      }
+    }
     
     .photo-card {
       display: flex;
