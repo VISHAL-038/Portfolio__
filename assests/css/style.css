@@ -937,9 +937,10 @@
     grid-template-columns: 1fr;
     gap: 30px;
     margin-bottom: 10px;
+    /* grid-auto-rows: minmax(200px, auto); */
   }
   
-  .project-item { display: none; }
+  .project-item { display: none; width: 100%; height: fit-content; }
   
   .project-item.active {
     display: block;
@@ -1010,7 +1011,8 @@
   .project-item > a:hover img { transform: scale(1.1); }
   
   .project-title,
-  .project-category { margin-left: 10px; }
+  .project-category,
+  .project-description { margin-left: 10px; }
   
   .project-title {
     color: var(--white-2);
@@ -1021,9 +1023,15 @@
   }
   
   .project-category {
-    color: var(--light-gray-70);
+    color: var(--vegas-gold);
     font-size: var(--fs-6);
     font-weight: var(--fw-300);
+  }
+
+  .project-description{
+    color: var(--light-gray-70);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-300);  
   }
   
   
@@ -1212,14 +1220,14 @@
   
   .form-btn:hover::before { background: var(--bg-gradient-yellow-2); }
   
-  .form-btn:disabled {
+  /* .form-btn:disabled {
     opacity: 0.7;
     cursor: not-allowed;
   }
   
   .form-btn:disabled:hover { background: var(--border-gradient-onyx); }
   
-  .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
+  .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); } */
   
   
   
@@ -1439,48 +1447,7 @@
       -webkit-line-clamp: 2;
     }
   
-    /* testimonials modal */
-  
-    .modal-container { padding: 20px; }
-  
-    .testimonials-modal {
-      display: flex;
-      justify-content: flex-start;
-      align-items: stretch;
-      gap: 25px;
-      padding: 30px;
-      border-radius: 20px;
-    }
-  
-    .modal-img-wrapper {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .modal-avatar-box {
-      border-radius: 18px;
-      margin-bottom: 0;
-    }
-  
-    .modal-avatar-box img { width: 65px; }
-  
-    .modal-img-wrapper > img {
-      display: block;
-      flex-grow: 1;
-      width: 35px;
-    }
-  
-    /* clients */
-  
-    .clients-list {
-      gap: 50px;
-      margin: 0 -30px;
-      padding: 45px;
-      scroll-padding-inline: 45px;
-    }
-  
-    .clients-item { min-width: calc(33.33% - 35px); }
+    
   
   
   
