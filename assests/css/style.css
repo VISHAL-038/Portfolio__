@@ -1242,11 +1242,7 @@
   
   @media (min-width: 450px) {
   
-    /**
-     * client
-     */
-  
-    .clients-item { min-width: calc(33.33% - 10px); }
+    
   
   
   
@@ -1669,6 +1665,7 @@
       margin-left: auto;
     }
 
+    
     .resume-btn{
       margin-left: auto;
     }
